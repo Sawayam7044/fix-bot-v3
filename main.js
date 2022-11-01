@@ -170,16 +170,16 @@ global.reloadHandler = async function (restatConn) {
 
   conn.welcome = '👋 Hallo @user\n\n                *W E L C O M E*\n⫹⫺ In @subject\n\n⫹⫺ Read *DESCRIPTION*\n@desc'
   conn.bye = '👋 Byee @user\n\n                *G O O D B Y E*'
-  conn.spromote = '*@user* Sekarang jadi admin!'
-  conn.sdemote = '*@user* Sekarang bukan lagi admin!'
-  conn.sDesc = 'Deskripsi telah diubah menjadi \n@desc'
-  conn.sSubject = 'Judul grup telah diubah menjadi \n@subject'
-  conn.sIcon = 'Icon grup telah diubah!'
-  conn.sRevoke = 'Link group telah diubah ke \n@revoke'
-  conn.sAnnounceOn = 'Group telah di tutup!\nsekarang hanya admin yang dapat mengirim pesan.'
-  conn.sAnnounceOff = 'Group telah di buka!\nsekarang semua peserta dapat mengirim pesan.'
-  conn.sRestrictOn = 'Edit Info Grup di ubah ke hanya admin!'
-  conn.sRestrictOff = 'Edit Info Grup di ubah ke semua peserta!'
+  conn.spromote = '*@user* Ji le apne zindagi!'
+  conn.sdemote = '*@user* bhag bhosdk!'
+  conn.sDesc = 'Description has been changed to \n@desc'
+  conn.sSubject = 'The group title has been changed to \n@subject'
+  conn.sIcon = 'The group icon has been changed!'
+  conn.sRevoke = 'Link group has been changed to \n@revoke'
+  conn.sAnnounceOn = 'Group has been closed!\nnow only admin can get it.'
+  conn.sAnnounceOff = 'Group has been open!\nnow all participants can message.'
+  conn.sRestrictOn = 'Edit group info changed to admin only!'
+  conn.sRestrictOff = 'Edit group info changed to all participants!'
   
   conn.handler = handler.handler.bind(global.conn)
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn)
